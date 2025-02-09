@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Form</title>
+    <style>
+        .heading {
+            text-align: center;
+        }
+
+        .info-column {
+            border: 2px solid black;
+            border-radius: 25px;
+            margin: 20px;
+            padding: 10px;
+        }
+
+        label {
+            padding: 0px 0px 0px 0px;
+        }
+
+        .btns {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="heading">
+        <h1>Basic Form</h1>
+        <hr>
+    </div>
+    <div class="info-column">
+        <label for="name">Name :</label>
+        <input type="text" placeholder="Enter Your Name">
+        <br>
+        <label for="email">Email :</label>
+        <input type="email" placeholder="Enter Your Email">
+        <br>
+        <label for="phone">Phone No.</label>
+        <input type="text" placeholder="Enter Your Number">
+        <br>
+        <label for="gender">Gender :</label><br>
+        <input type="radio" name="male" id="male">Male
+        <input type="radio" name="female" id="female">Female
+        <input type="radio" name="other" id="other">Other
+        <br>
+        <label for="wya">Who You Are :</label>
+        <select name="role" id="role">
+            <option value="other">Other</option>
+            <option value="student">Student</option>
+            <option value="parent">Parent</option>
+            <option value="teacher">Teacher</option>
+        </select>
+        <br>
+        <label for="ss">Select Skills :</label>
+        <br>
+        <input type="checkbox" name="ec" id="ec">English Communication
+        <br>
+        <input type="checkbox" name="html" id="html">HTML
+        <br>
+        <input type="checkbox" name="css" id="css">CSS
+        <br>
+        <input type="checkbox" name="js" id="js">Java Script
+        <br>
+        <label for="c">Enter Comments Or Suggestions :</label>
+        <br>
+        <textarea name="text" id="text" placeholder="Enter Your Comments Here"></textarea>
+        <div class="btns">
+            <button type="submit">Submit</button>
+        </div>
+    </div>
+</body>
+
+</html>
